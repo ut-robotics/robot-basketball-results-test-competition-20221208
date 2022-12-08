@@ -198,15 +198,15 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [[], [{"time": 1670525507061, "isValid": true}]],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4616,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1670525502449, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -242,94 +242,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1002,
+    "id": 1003,
     "robots": [
-      {"id": "jackbot", "name": "Jackbot"},
-      {"id": "owo", "name": "OWO"}
+      {"id": "robodendron", "name": "Robodendron"},
+      {"id": "placeholder", "name": "%placeholder%"}
     ],
-    "startingBaskets": ["blue", "magenta"],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [[{"time": 1670524653250, "isValid": true}], []],
-        "fouls": [[{"time": 1670524671459}], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60008,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1670524598086, "endTime": 1670524625653},
-          {"startTime": 1670524640799, "endTime": 1670524664652},
-          {"startTime": 1670524720920, "endTime": 1670524729508}
-        ]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[], [{"time": 1670524845227}, {"time": 1670524965144}]],
+        "scores": [[], [{"time": 1670525507061, "isValid": true}]],
+        "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60018,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4616,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1670524807295, "endTime": 1670524839008},
-          {"startTime": 1670524939990, "endTime": 1670524959664},
-          {"startTime": 1670525001323, "endTime": 1670525009954}
-        ]
-      },
-      {
-        "scores": [[], [{"time": 1670525180870, "isValid": true}]],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60043,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1670525143233, "endTime": 1670525203276}]
-      },
-      {
-        "scores": [
-          [],
-          [
-            {"time": 1670525317462, "isValid": true},
-            {"time": 1670525325227, "isValid": true},
-            {"time": 1670525329690, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 30006,
-        "timeLimit": 30000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1670525304013, "endTime": 1670525334019}]
+        "runs": [{"startTime": 1670525502449, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "owo", "name": "OWO"},
-      "roundWinCount": 1,
-      "roundLossCount": 1,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.56, 0.11],
-      [0.56, -0.11],
-      [-1.45, 0.03],
-      [1.45, -0.03],
-      [-0.13, 0.43],
-      [0.13, -0.43],
-      [1.2, -1.13],
-      [-1.2, 1.13],
-      [2.07, -1.13],
-      [-2.07, 1.13]
+      [0.98, -0.49],
+      [-0.98, 0.49],
+      [1.43, -0.43],
+      [-1.43, 0.43],
+      [1.51, 1.39],
+      [-1.51, -1.39],
+      [1.68, 0.55],
+      [-1.68, -0.55],
+      [-0.3, -0.66],
+      [0.3, 0.66]
     ]
   }
 }
