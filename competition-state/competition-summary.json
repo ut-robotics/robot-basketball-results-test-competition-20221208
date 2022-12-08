@@ -3,7 +3,8 @@
   "name": "Test Competition 2022-12-08",
   "robots": [
     {"id": "placeholder", "name": "%placeholder%"},
-    {"id": "Kivipallur Jürto", "name": "jurto"}
+    {"id": "Kivipallur Jürto", "name": "jurto"},
+    {"id": "owo", "name": "OWO"}
   ],
   "tournament": null
 }
