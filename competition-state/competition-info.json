@@ -21,20 +21,19 @@
       {"id": "owo", "name": "OWO"},
       {"id": "robodendron", "name": "Robodendron"}
     ],
-    "gameIDs": [1001],
-    "gameTypes": {"1001": "noLoss"},
+    "gameIDs": [1001, 1002],
+    "gameTypes": {"1001": "noLoss", "1002": "noLoss"},
     "noLossQueue": [
-      {"id": "jackbot", "name": "Jackbot"},
-      {"id": "owo", "name": "OWO"},
-      {"id": "robodendron", "name": "Robodendron"}
+      {"id": "robodendron", "name": "Robodendron"},
+      {"id": "placeholder", "name": "%placeholder%"}
     ],
-    "oneLossQueue": [],
+    "oneLossQueue": [{"id": "jurto", "name": "Kivipallur Jürto"}],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
       "placeholder": ["magenta"],
       "jurto": ["blue"],
-      "jackbot": [],
-      "owo": [],
+      "jackbot": ["blue"],
+      "owo": ["magenta"],
       "robodendron": []
     },
     "hasEnded": false
