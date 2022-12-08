@@ -3,10 +3,40 @@
   "name": "Test Competition 2022-12-08",
   "robots": [
     {"id": "placeholder", "name": "%placeholder%"},
-    {"id": "Kivipallur Jürto", "name": "jurto"},
+    {"id": "jurto", "name": "Kivipallur Jürto"},
     {"id": "owo", "name": "OWO"},
     {"id": "jackbot", "name": "Jackbot"},
     {"id": "robodendron", "name": "Robodendron"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": false,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": true
+  },
+  "doubleEliminationTournament": {
+    "robots": [
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "jurto", "name": "Kivipallur Jürto"},
+      {"id": "jackbot", "name": "Jackbot"},
+      {"id": "owo", "name": "OWO"},
+      {"id": "robodendron", "name": "Robodendron"}
+    ],
+    "gameIDs": [1001],
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "jackbot", "name": "Jackbot"},
+      {"id": "owo", "name": "OWO"},
+      {"id": "robodendron", "name": "Robodendron"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "placeholder": ["magenta"],
+      "jurto": ["blue"],
+      "jackbot": [],
+      "owo": [],
+      "robodendron": []
+    },
+    "hasEnded": false
+  }
 }

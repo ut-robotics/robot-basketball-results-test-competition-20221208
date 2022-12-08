@@ -3,10 +3,78 @@
   "name": "Test Competition 2022-12-08",
   "robots": [
     {"id": "placeholder", "name": "%placeholder%"},
-    {"id": "Kivipallur Jürto", "name": "jurto"},
+    {"id": "jurto", "name": "Kivipallur Jürto"},
     {"id": "owo", "name": "OWO"},
     {"id": "jackbot", "name": "Jackbot"},
     {"id": "robodendron", "name": "Robodendron"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": false,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": true
+  },
+  "doubleEliminationTournament": {
+    "robots": [
+      {"id": "placeholder", "name": "%placeholder%"},
+      {"id": "jurto", "name": "Kivipallur Jürto"},
+      {"id": "jackbot", "name": "Jackbot"},
+      {"id": "owo", "name": "OWO"},
+      {"id": "robodendron", "name": "Robodendron"}
+    ],
+    "games": [
+      {
+        "id": 1001,
+        "robots": [
+          {"id": "placeholder", "name": "%placeholder%"},
+          {"id": "jurto", "name": "Kivipallur Jürto"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.69, 1.32],
+          [1.69, -1.32],
+          [-1.66, 0.36],
+          [1.66, -0.36],
+          [-1.07, 0.21],
+          [1.07, -0.21],
+          [1.42, 1.12],
+          [-1.42, -1.12],
+          [1.89, 0.31],
+          [-1.89, -0.31]
+        ]
+      }
+    ],
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "jackbot", "name": "Jackbot"},
+      {"id": "owo", "name": "OWO"},
+      {"id": "robodendron", "name": "Robodendron"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "placeholder": ["magenta"],
+      "jurto": ["blue"],
+      "jackbot": [],
+      "owo": [],
+      "robodendron": []
+    },
+    "hasEnded": false
+  }
 }
