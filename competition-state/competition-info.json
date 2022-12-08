@@ -32,12 +32,13 @@
       "1007": "oneLoss",
       "1008": "firstFinal"
     },
-    "noLossQueue": [],
+    "noLossQueue": [{"id": "placeholder", "name": "%placeholder%"}],
     "oneLossQueue": [],
     "eliminatedRobots": [
       {"id": "jurto", "name": "Kivipallur Jürto"},
       {"id": "robodendron", "name": "Robodendron"},
-      {"id": "owo", "name": "OWO"}
+      {"id": "owo", "name": "OWO"},
+      {"id": "jackbot", "name": "Jackbot"}
     ],
     "robotStartingBaskets": {
       "placeholder": ["magenta", "blue", "magenta", "blue"],
@@ -46,6 +47,6 @@
       "owo": ["magenta", "blue", "magenta"],
       "robodendron": ["magenta", "blue"]
     },
-    "hasEnded": false
+    "hasEnded": true
   }
 }
