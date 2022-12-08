@@ -1,6 +1,9 @@
 {
   "id": "test-competition-20221208",
   "name": "Test Competition 2022-12-08",
-  "robots": [{"id": "placeholder", "name": "%placeholder%"}],
+  "robots": [
+    {"id": "placeholder", "name": "%placeholder%"},
+    {"id": "Kivipallur Jürto", "name": "jurto"}
+  ],
   "tournament": null
 }
