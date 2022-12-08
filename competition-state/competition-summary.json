@@ -5,7 +5,8 @@
     {"id": "placeholder", "name": "%placeholder%"},
     {"id": "Kivipallur Jürto", "name": "jurto"},
     {"id": "owo", "name": "OWO"},
-    {"id": "jackbot", "name": "Jackbot"}
+    {"id": "jackbot", "name": "Jackbot"},
+    {"id": "robodendron", "name": "Robodendron"}
   ],
   "tournament": null
 }
