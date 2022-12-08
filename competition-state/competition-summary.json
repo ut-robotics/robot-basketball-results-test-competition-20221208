@@ -474,10 +474,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1670527161849, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -521,71 +521,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1006,
+    "id": 1007,
     "robots": [
-      {"id": "robodendron", "name": "Robodendron"},
+      {"id": "owo", "name": "OWO"},
       {"id": "jackbot", "name": "Jackbot"}
     ],
-    "startingBaskets": ["blue", "magenta"],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [[], []],
         "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60034,
+        "baskets": ["magenta", "blue"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1670526850731, "endTime": 1670526862759},
-          {"startTime": 1670526888473, "endTime": 1670526936479}
-        ]
-      },
-      {
-        "scores": [[], [{"time": 1670527018280, "isValid": true}]],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 45274,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1670526975345, "endTime": 1670527020619}]
-      },
-      {
-        "scores": [[], [{"time": 1670527029229, "isValid": true}]],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 4333,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1670527026778, "endTime": 1670527031111}]
+        "runs": [{"startTime": 1670527161849, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "jackbot", "name": "Jackbot"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-1.46, 0.53],
-      [1.46, -0.53],
-      [0.58, -0.54],
-      [-0.58, 0.54],
-      [0.9, -1.23],
-      [-0.9, 1.23],
-      [0.34, -0.86],
-      [-0.34, 0.86],
-      [1.69, 0.23],
-      [-1.69, -0.23]
+      [0.1, -0.42],
+      [-0.1, 0.42],
+      [1.43, 0.03],
+      [-1.43, -0.03],
+      [0.11, 1.05],
+      [-0.11, -1.05],
+      [1.47, -0.75],
+      [-1.47, 0.75],
+      [-1.45, -1.44],
+      [1.45, 1.44]
     ]
   }
 }
