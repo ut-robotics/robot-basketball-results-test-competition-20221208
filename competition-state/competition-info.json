@@ -1,6 +1,6 @@
 {
   "id": "test-competition-20221208",
   "name": "Test Competition 2022-12-08",
-  "robots": [],
+  "robots": [{"id": "placeholder", "name": "%placeholder%"}],
   "tournament": null
 }
