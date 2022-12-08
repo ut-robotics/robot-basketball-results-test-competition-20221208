@@ -332,15 +332,21 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [
+              [{"time": 1670526459318, "isValid": true}],
+              [
+                {"time": 1670526451134, "isValid": true},
+                {"time": 1670526454540, "isValid": true}
+              ]
+            ],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 12965,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1670526446357, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -382,60 +388,46 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1004,
+    "id": 1005,
     "robots": [
-      {"id": "jurto", "name": "Kivipallur Jürto"},
-      {"id": "jackbot", "name": "Jackbot"}
+      {"id": "owo", "name": "OWO"},
+      {"id": "placeholder", "name": "%placeholder%"}
     ],
-    "startingBaskets": ["magenta", "blue"],
+    "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [[], [{"time": 1670526063794, "isValid": true}]],
-        "fouls": [[], [{"time": 1670526115895}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60098,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1670526048908, "endTime": 1670526105428},
-          {"startTime": 1670526159045, "endTime": 1670526162623}
-        ]
-      },
-      {
-        "scores": [[], [{"time": 1670526267649, "isValid": true}]],
+        "scores": [
+          [{"time": 1670526459318, "isValid": true}],
+          [
+            {"time": 1670526451134, "isValid": true},
+            {"time": 1670526454540, "isValid": true}
+          ]
+        ],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60029,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 12965,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1670526238771, "endTime": 1670526298800}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1670526446357, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "jackbot", "name": "Jackbot"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [1.18, -1.22],
-      [-1.18, 1.22],
-      [-0.54, 1.26],
-      [0.54, -1.26],
-      [0.39, -0.33],
-      [-0.39, 0.33],
-      [1.74, 0.65],
-      [-1.74, -0.65],
-      [1.38, 0.85],
-      [-1.38, -0.85]
+      [1.2, 0.7],
+      [-1.2, -0.7],
+      [-0.66, 0.89],
+      [0.66, -0.89],
+      [1.67, 1.44],
+      [-1.67, -1.44],
+      [0.17, 0.97],
+      [-0.17, -0.97],
+      [1.82, -0.63],
+      [-1.82, 0.63]
     ]
   }
 }
