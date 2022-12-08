@@ -1,0 +1,34 @@
+{
+  "id": 1006,
+  "robots": [
+    {"id": "robodendron", "name": "Robodendron"},
+    {"id": "jackbot", "name": "Jackbot"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": false,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-1.46, 0.53],
+    [1.46, -0.53],
+    [0.58, -0.54],
+    [-0.58, 0.54],
+    [0.9, -1.23],
+    [-0.9, 1.23],
+    [0.34, -0.86],
+    [-0.34, 0.86],
+    [1.69, 0.23],
+    [-1.69, -0.23]
+  ]
+}

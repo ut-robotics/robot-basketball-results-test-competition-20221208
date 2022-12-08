@@ -329,7 +329,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -361,15 +361,21 @@
             ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 43441,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60031,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1670526629741, "endTime": null}]
+            "winnerIndex": 1,
+            "runs": [{"startTime": 1670526629741, "endTime": 1670526689772}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "placeholder", "name": "%placeholder%"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [1.2, 0.7],
@@ -383,6 +389,43 @@
           [1.82, -0.63],
           [-1.82, 0.63]
         ]
+      },
+      {
+        "id": 1006,
+        "robots": [
+          {"id": "robodendron", "name": "Robodendron"},
+          {"id": "jackbot", "name": "Jackbot"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.46, 0.53],
+          [1.46, -0.53],
+          [0.58, -0.54],
+          [-0.58, 0.54],
+          [0.9, -1.23],
+          [-0.9, 1.23],
+          [0.34, -0.86],
+          [-0.34, 0.86],
+          [1.69, 0.23],
+          [-1.69, -0.23]
+        ]
       }
     ],
     "gameTypes": {
@@ -390,20 +433,18 @@
       "1002": "noLoss",
       "1003": "noLoss",
       "1004": "oneLoss",
-      "1005": "noLoss"
+      "1005": "noLoss",
+      "1006": "oneLoss"
     },
-    "noLossQueue": [],
-    "oneLossQueue": [
-      {"id": "robodendron", "name": "Robodendron"},
-      {"id": "jackbot", "name": "Jackbot"}
-    ],
+    "noLossQueue": [{"id": "placeholder", "name": "%placeholder%"}],
+    "oneLossQueue": [{"id": "owo", "name": "OWO"}],
     "eliminatedRobots": [{"id": "jurto", "name": "Kivipallur Jürto"}],
     "robotStartingBaskets": {
       "placeholder": ["magenta", "blue", "magenta"],
       "jurto": ["blue", "magenta"],
-      "jackbot": ["blue", "blue"],
+      "jackbot": ["blue", "blue", "magenta"],
       "owo": ["magenta", "blue"],
-      "robodendron": ["magenta"]
+      "robodendron": ["magenta", "blue"]
     },
     "hasEnded": false
   },
@@ -415,7 +456,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -447,15 +488,21 @@
         ],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 43441,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60031,
         "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1670526629741, "endTime": null}]
+        "winnerIndex": 1,
+        "runs": [{"startTime": 1670526629741, "endTime": 1670526689772}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "placeholder", "name": "%placeholder%"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [1.2, 0.7],
