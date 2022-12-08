@@ -4,7 +4,8 @@
   "robots": [
     {"id": "placeholder", "name": "%placeholder%"},
     {"id": "Kivipallur Jürto", "name": "jurto"},
-    {"id": "owo", "name": "OWO"}
+    {"id": "owo", "name": "OWO"},
+    {"id": "jackbot", "name": "Jackbot"}
   ],
   "tournament": null
 }
