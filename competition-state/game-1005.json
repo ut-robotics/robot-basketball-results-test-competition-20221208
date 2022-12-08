@@ -26,7 +26,13 @@
       "runs": [{"startTime": 1670526446357, "endTime": 1670526506450}]
     },
     {
-      "scores": [[], [{"time": 1670526634567, "isValid": true}]],
+      "scores": [
+        [],
+        [
+          {"time": 1670526634567, "isValid": true},
+          {"time": 1670526647990, "isValid": true}
+        ]
+      ],
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
       "hasEnded": false,
